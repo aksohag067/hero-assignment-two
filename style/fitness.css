@@ -6,10 +6,14 @@
 
 /* Shared styles */
 
+
 .display-flex {
     display: flex;
 }
 
+.bg-color {
+    background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+}
 /* Nav related styles */
 
 .navbar .nav-title {
@@ -18,3 +22,28 @@
     align-items: center;
 }
 
+.nav-title-items li {
+    list-style: none; 
+    
+}
+
+.nav-title-items li a {
+    text-decoration: none;
+    margin-right: 3rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.nav-title-items .home {
+    border: none;
+    border-radius: 3rem;
+    background: rgba(230, 83, 60, 1);
+    padding: 8px 20px;
+}
+
+.navbar h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgba(230, 83, 60, 1);
+}
