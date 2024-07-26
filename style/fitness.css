@@ -2,6 +2,9 @@
 
 * {
     font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Shared styles */
@@ -12,9 +15,27 @@
 }
 
 .bg-color {
-    background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(180deg, #09203f 0%, #537895 100%);
 }
+
+.para {
+    color: rgba(255, 255, 255);
+    ;
+}
+
+.heading {
+    color: rgba(255, 255, 255, 1);
+    ;
+}
+
+/* .btn-padding {
+    padding: 16px, 40px;
+} */
 /* Nav related styles */
+
+.navbar {
+    padding: 3rem 1rem 1rem 10rem;
+}
 
 .navbar .nav-title {
     width: 90%;
@@ -46,4 +67,58 @@
     font-size: 2rem;
     font-weight: 800;
     color: rgba(230, 83, 60, 1);
+} 
+
+/* banner related styles */
+
+.banner {
+    justify-content: space-around;
+    align-items: center;
 }
+
+.banner-content {
+    margin: 5rem 5rem 4rem 10rem;
+}
+
+.banner-content h1 {
+    font-size: 4.8rem;
+    font-weight: 900;
+}
+
+.banner-content i {
+    font-family: "Miama";
+}
+
+.banner-content p {
+    margin: 1.75rem 0;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.banner-content .join {
+    padding: 1rem 2.8rem;
+    border-radius: 2.8rem;
+    background: rgba(230, 83, 60, 1);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    margin-right: 1rem;
+}
+.banner-content .download {
+    padding: 1rem 2.8rem;
+    border-radius: 2.8rem;
+    background: #151515;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+}
+
+.banner-image {
+    max-width: 100%;
+}
+
+
+
+
