@@ -32,8 +32,8 @@
     padding: 16px, 40px;
 } */
 
-.header {
-  
+body {
+  max-width: 100%;
 }
 
 /* Nav related styles */
@@ -43,7 +43,7 @@
 }
 
 .navbar .nav-title {
-    width: 90%;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
 }
@@ -140,7 +140,7 @@
     border-radius: 12px;
     text-align: center;
     top: 16.3rem;
-    left: 78rem;
+    left: 75rem;
 }
 
 .card-1 h1 {
@@ -201,6 +201,8 @@
         display: block;
         font-size: 1.5rem;
         color: #fff;
+        margin-right: 0.4rem;
+        padding: 5%;
         cursor: pointer;
     }
 
@@ -240,7 +242,7 @@
     .card-1 {
         width: 9rem;
         height: 4rem;
-        top: 38rem;
+        top: 50rem;
         left: 13.4rem;
     }
     .card-1 h1 {
@@ -251,7 +253,7 @@
     .card-2 {
         width: 10rem;
         height: 4rem;
-        top: 50rem;
+        top: 65rem;
         left: 2rem;
     }
 
