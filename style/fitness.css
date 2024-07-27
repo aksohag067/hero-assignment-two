@@ -73,6 +73,12 @@
     font-weight: 800;
     color: rgba(230, 83, 60, 1);
 } 
+.nav-title .menu-icon {
+    display: none;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}
 
 /* banner related styles */
 
@@ -180,7 +186,75 @@
 }
 
 @media screen and (max-width: 576px) {
-    
+    /* .header {
+        max-width: 90%;
+    } */
+    .navbar {
+        max-width: 100%;
+        padding: 15%;
+    }
+    .nav-title-items {
+        display: none;
+    }
+
+    .nav-title .menu-icon {
+        display: block;
+        font-size: 1.5rem;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .navbar h2 {
+        font-size: 2.25rem;
+        color: rgba(230, 83, 60, 1);
+    } 
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-content h1 {
+        font-size: 2.25rem;
+    }
+
+    .banner-content p {
+        margin-top: 1.75rem;
+        margin-bottom: 1.75rem;
+        text-align: justify;
+    }
+
+    .banner-content .btn {
+        display: flex;
+    }
+
+    .btn .join, .btn .download {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1rem;
+    }
+    .join .join-span {
+        display: none;
+    }
+
+    .card-1 {
+        width: 9rem;
+        height: 4rem;
+        top: 38rem;
+        left: 13.4rem;
+    }
+    .card-1 h1 {
+        font-size: 1.5rem;
+        font-weight: 900;
+        color: #fff;
+    }
+    .card-2 {
+        width: 10rem;
+        height: 4rem;
+        top: 50rem;
+        left: 2rem;
+    }
+
 }
 
 
