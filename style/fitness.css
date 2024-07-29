@@ -624,6 +624,14 @@ form input {
     grid-template-columns: 2fr 1fr 1fr;
 }
 
+.services h2, .support h2, .address h2 {
+    padding-bottom: 2.5rem;
+}
+
+.services p, .support p, .address p {
+    padding-bottom: 1.2rem;
+}
+
 .footer hr {
     margin-top: 5rem;
     margin-bottom: 3rem;
@@ -640,7 +648,7 @@ form input {
 @media screen and (max-width: 576px) {
     .footer {
         max-width: 80%;
-        
+        margin-top: 2rem;
     }
 
     .footer-container {
