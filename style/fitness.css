@@ -21,7 +21,6 @@
 .para {
     font-size: .9rem;
     color: rgba(255, 255, 255, 0.5);
-    margin: 1.75rem 0;
     font-weight: 400;
 }
 
@@ -362,6 +361,10 @@ body {
     margin-bottom: .8rem;
 }
 
+.run-content p {
+    padding-bottom: 2rem;
+}
+
 .run-extra .run-image {
     max-width: 100%;
 }
@@ -379,20 +382,143 @@ body {
 .meet-us {
     max-width: 80%;
     margin: 5.5rem auto;
-    border-radius: 10px;
-    box-shadow: 5px 5px 20px #153448;
+}
+
+.meet-us .meet-us-content {
+    margin: auto;
+    text-align: center;
+}
+
+.meet-us-content p {
+    padding-bottom: 2rem;
 }
 
 .trainer-container {
+    box-shadow: 5px 5px 20px #153448;
+    border-radius: 10px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20.40rem, 1fr));
     gap: 1.2rem;
 }
 
+
+.trainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
 .trainer img {
     width: 100%;
+    padding: 1.25rem;
+    border-radius: 8px;
     height: 20.40rem;
-    object-fit: contain;
+    object-fit: cover;
+}
+
+.trainer-name {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+/* BMI related styles */
+
+.bmi .bmi-heading {
+    margin: 5.5rem auto;
+    text-align: center;
+}
+
+.bmi-container {
+    width: 100vw;
+    padding: 3rem 11.8rem;
+    background-color: rgba(179, 205, 224, 0.2);
+    justify-content: center;
+    align-items: center;
+    gap: 11rem;
+}
+
+.bmi-container table {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    margin: 1.2rem 0;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.bmi-chart h3 {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+}
+
+table > tr > th, td {
+    padding: 0.8rem;
+    color:rgba(255, 255, 255, 1);
+    border: 1px solid #ddd;
+}
+
+thead tr {
+    padding: 0.8rem;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.bmi-description h3 {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+}
+
+.bmi-description p {
+    padding: .8rem 0 2rem 0;
+}
+
+.bmi-description form {
+    margin-bottom: 2rem;
+}
+
+form input {
+    padding: 13px 50px 13px 20px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
+}
+
+#activity {
+    width: 100%;
+}
+/* Footer related styles */
+
+.footer {
+    max-width: 80%;
+    margin: auto;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.footer hr {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer h5 {
+    margin: 2.2rem auto;
+    text-align: center;
 }
 
 

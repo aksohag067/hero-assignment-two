@@ -91,49 +91,108 @@
     </section>
     <section class="bmi">
         <div class="bmi-heading">
-            <h1>BMI Calculator</h1>
-            <p>Body mass index (BMI) is a value derived from the mass (weight) and height of a person. </p>
+            <h1 class="heading">BMI Calculator</h1>
+            <p class="para">Body mass index (BMI) is a value derived from the mass (weight) and height of a person. </p>
         </div>
-        <div>
+        <div class="bmi-container display-flex">
             <div class="bmi-chart">
-                <h3></h3>
+                <h3>BMI Calculator chart</h3>
                 <table>
-
+                    <thead>
+                        <tr>
+                            <th>BMI</th>
+                            <th>Weight status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Below 18.5</td>
+                            <td>Underweight</td>
+                        </tr>
+                        <tr>
+                            <td>18.5-24.9</td>
+                            <td>Healthy</td>
+                        </tr>
+                        <tr>
+                            <td>25-29.9</td>
+                            <td>Overweight</td>
+                        </tr>
+                        <tr>
+                            <td>30.0 - and above</td>
+                            <td>Obese</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
             <div class="bmi-description">
                 <h3>Calculate your BMI</h3>
-                <p>Put your relevant data to calculate your BMI</p>
-                <form action=""></form>
-                <button>Calculate</button>
+                <p class="para">Put your relevant data to calculate your BMI</p>
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Height/cm">
+                    <input type="text" name="" id="" placeholder="Weight/kg"> <br>
+                    <input type="text" name="" id="" placeholder="Age">
+                    <input type="text" name="" id="" placeholder="sex"> <br>
+                    <input type="text" name="" id="activity" placeholder="select an activity factor">
+                </form>
+                <button class="join">Calculate</button>
             </div>
         </div>
     </section>
     <section class="meet-us">
-        <div>
-            <h1>Meet Our Team</h1>
-            <p>We have renowned trainer from different countries. Let's get to know them.</p>
+        <div class="meet-us-content">
+            <h1 class="heading">Meet Our Team</h1>
+            <p class="para">We have renowned trainer from different countries. Let's get to know them.</p>
         </div>
         <div class="trainer-container">
             <div class="trainer">
                 <img class="trainer-1" src="images/trainer1.png" alt="">
+                <span class="trainer-name">Jerome Bell</span>
             </div>
             <div class="trainer">
                 <img class="trainer-2" src="images/trainer2.png" alt="">
+                <span class="trainer-name">Cameron Williamson</span>
             </div>
             <div class="trainer">
                 <img class="trainer-3" src="images/trainer3.png" alt="">
+                <span class="trainer-name">Darrell Steward</span>
             </div>
             <div class="trainer">
                 <img class="trainer-4" src="images/trainer4.png" alt="">
+                <span class="trainer-name">Stuart Campell</span>
             </div>
             <div class="trainer">
                 <img class="trainer-5" src="images/trainer5.png" alt="">
+                <span class="trainer-name">Luis Burg</span>
             </div>
             <div class="trainer">
                 <img class="trainer-6" src="images/trainer6.png" alt="">
+                <span class="trainer-name">David Cameron</span>
             </div>
         </div>
+    </section>
+    <section class="footer">
+        <div class="footer-container">
+            <div class="services">
+                <h2>Services</h2>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="support">
+                <h2>Support</h2>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="address">
+                <h2>Address</h2>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+        <hr>
+        <h5>All rights reserved @Fitness 2024</h5>
     </section>
 </body>
 </html>
