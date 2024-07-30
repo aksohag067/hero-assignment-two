@@ -139,7 +139,12 @@ body {
 .banner-image {
     max-width: 100%;
     height: auto;
-    
+    position: relative;
+}
+
+.banner-image img {
+    width: 100%;
+    object-fit: cover;
 }
 
 .card-1 {
@@ -149,8 +154,8 @@ body {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     text-align: center;
-    top: 16.3rem;
-    left: 75rem;
+    top: 7.8rem;
+    left: 14.4rem;
 }
 
 .card-1 h1 {
@@ -173,8 +178,8 @@ body {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     text-align: center;
-    top: 35rem;
-    right: 26rem;
+    right: 16rem;
+    bottom: 4rem;
 }
 
 .card-2 h1 {
@@ -253,8 +258,8 @@ body {
     .card-1 {
         width: 9rem;
         height: 4rem;
-        top: 50rem;
-        left: 13.4rem;
+        top: 3rem;
+        left: 12.13rem;
     }
     .card-1 h1 {
         font-size: 1.5rem;
@@ -264,8 +269,8 @@ body {
     .card-2 {
         width: 10rem;
         height: 4rem;
-        top: 65rem;
-        left: 2rem;
+        top: 17rem;
+        left: 0.75rem;
     }
 
 }
