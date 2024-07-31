@@ -409,9 +409,9 @@ body {
     color: rgba(255, 255, 255, 1);
   }
   
-  .grid {
+  .grid-workout {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.2rem;
   }
   
@@ -435,7 +435,7 @@ body {
   }
   
   @media (max-width: 576px) {
-    .grid {
+    .grid-workout {
       grid-template-columns: 1fr;
     }
   }
@@ -733,6 +733,7 @@ form input {
 
 .footer h5 {
     margin: 2.2rem auto;
+    color: rgba(255, 255, 255, 0.5);
     text-align: center;
 }
 
