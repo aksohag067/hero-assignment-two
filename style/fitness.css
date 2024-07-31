@@ -359,6 +359,89 @@ body {
     }
 }
 
+/* Challenge section */
+/* workout related styles */
+
+.workouts {
+    max-width: 75%;
+    box-shadow: 5px 5px 20px #153448;
+    margin: 0 auto 5rem;
+    padding: 1.2rem;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 1.2rem;
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .workout-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .workout-list li {
+    display: inline-block;
+    margin: .5rem 1rem;
+    padding: .8rem;
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+  }
+  
+  .workout-details {
+    margin-top: 2rem;
+  }
+  
+  .workout-item {
+    margin-bottom: 2rem;
+  }
+  
+  .workout-item h3 {
+    font-size: 2rem;
+    margin-bottom: .8rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+  
+  .how-to, .benefits {
+    padding: 1rem;
+    background-color: rgba(179, 205, 224, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .how-to h4, .how-to p {
+    margin-bottom: .8rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .benefits h4, .benefits p {
+    margin-bottom: .8rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  @media (max-width: 576px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+
+
 /* extra run related styles */
 
 .run-extra {
