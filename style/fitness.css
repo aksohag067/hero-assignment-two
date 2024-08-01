@@ -207,6 +207,7 @@ body {
     .navbar {
         max-width: 100%;
         padding: 2rem;
+        
     }
     .nav-title-items {
         display: none;
@@ -224,6 +225,7 @@ body {
     .navbar h2 {
         font-size: 2.25rem;
         color: rgba(230, 83, 60, 1);
+        margin-top: .5rem;
     } 
 
     .banner {
@@ -624,15 +626,14 @@ body {
     color: rgba(255, 255, 255, 1);
 }
 
-table > tr > th, td {
+.bmi-chart th, .bmi-chart td {
     padding: 0.8rem;
-    color:rgba(255, 255, 255, 1);
     border: 1px solid #ddd;
 }
 
-thead tr {
-    padding: 0.8rem;
+.bmi-chart thead th {
     color: rgba(255, 255, 255, 1);
+    background-color:rgba(255, 255, 255, 0.1); 
     text-align: center;
 }
 
@@ -650,7 +651,7 @@ thead tr {
     margin-bottom: 2rem;
 }
 
-form input {
+form input, form select {
     padding: 13px 50px 13px 20px;
     margin-bottom: 12px;
     border-radius: 5px;
@@ -659,9 +660,18 @@ form input {
     color: rgba(255, 255, 255, 1);
 }
 
+
+form select {
+    width: 14.5rem;
+}
+
 #activity {
     width: 100%;
-}
+} 
+
+
+
+
 
 /* media query of BMI */
 
@@ -695,15 +705,31 @@ form input {
     }
 
     .bmi-description h3 {
-        font-size: 1rem;
+        text-align: center;
+        font-size: 1.75rem;
+        font-weight: 900;
+        color: rgba(255, 255, 255, 1);
     }
-
+    
+    .bmi-description p {
+        padding: .8rem 0 2rem 0;
+    }
+    
+    .bmi-description form {
+        margin-bottom: 2rem;
+    }
+    
     form input {
-        padding: 10px;
+        padding: 13px 50px 13px 20px;
         margin-bottom: 12px;
+        border-radius: 5px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255, 1);
         width: 100%;
     }
-}
+    
+    
 
 /* Footer related styles */
 
