@@ -638,6 +638,7 @@ body {
 }
 
 .bmi-description h3 {
+    text-align: center;
     font-size: 1.75rem;
     font-weight: 900;
     color: rgba(255, 255, 255, 1);
