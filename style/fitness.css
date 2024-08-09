@@ -666,10 +666,6 @@ form select {
     width: 14.5rem;
 }
 
-#activity {
-    width: 100%;
-} 
-
 
 
 
@@ -720,7 +716,7 @@ form select {
         margin-bottom: 2rem;
     }
     
-    form input {
+    /* form input {
         padding: 13px 50px 13px 20px;
         margin-bottom: 12px;
         border-radius: 5px;
@@ -729,7 +725,32 @@ form select {
         color: rgba(255, 255, 255, 1);
         width: 100%;
     }
-    
+     */
+
+     .form-row {
+        display: flex;
+        margin-bottom: 15px;
+      }
+      
+      .form-row input,
+      .form-row select {
+        width: calc(50% - 10px);
+        padding: 10px;
+        margin-right: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255, 1);
+      }
+
+.form-row input:last-child,
+.form-row select:last-child {
+  margin-right: 0;
+}
+
+.full-width {
+  width: 100%;
+}
     
 
 /* Footer related styles */
