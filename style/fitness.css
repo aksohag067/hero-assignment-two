@@ -751,7 +751,8 @@ form select {
 .full-width {
   width: 100%;
 }
-    
+
+}
 
 /* Footer related styles */
 
@@ -779,7 +780,7 @@ form select {
     border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
-.footer h5 {
+.footer h3 {
     margin: 2.2rem auto;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
@@ -802,8 +803,4 @@ form select {
         margin-bottom: 3rem;
     }
 }
-
-
-
-
 
