@@ -661,6 +661,9 @@ form input, form select {
     color: rgba(255, 255, 255, 1);
 }
 
+.full-width {
+    width: 100%;
+  }
 
 form select {
     width: 14.5rem;
@@ -748,9 +751,9 @@ form select {
   margin-right: 0;
 }
 
-.full-width {
+/* .full-width {
   width: 100%;
-}
+} */
 
 }
 
