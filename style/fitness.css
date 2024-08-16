@@ -268,6 +268,7 @@ body {
         left: 12.13rem;
     }
     .card-1 h1 {
+        margin-top: .5rem;
         font-size: 1.5rem;
         font-weight: 900;
         color: #fff;
@@ -277,6 +278,24 @@ body {
         height: 4rem;
         top: 17rem;
         left: 0.75rem;
+    }
+
+    .card-2 .card-2-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
+
+    .card-2 h2 {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .card-2 p {
+        font-size: .6rem;
     }
 
 }
